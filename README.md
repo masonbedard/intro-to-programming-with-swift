@@ -66,7 +66,7 @@ A variable is like a box. Boxes generally hold things, and when you have many bo
 var myBox = 5
 ```
 
-Now let's break that down. The word 'var' is how you let the program know that you want to get a new box down from the shelf.  Whatever you put between 'var' and the '=' is your new box's label; in the above example, 'myBox' is the label. You can label the box almost anything you want (but, for example, you cannot label it 'var'). Finally, whatever you put after the '=' is what your new box will hold. This box holds the Integer 5.
+Now let's break that down. The word 'var' is how you let the program know that you want to get a new box down from the shelf.  Whatever you put between 'var' and the '=' is your new box's label; in the above example, 'myBox' is the label. You can label the box almost anything you want (but, for example, you cannot label it 'var'). Finally, whatever you put after the '=' is what your new box will hold. This box holds the Int 5.
 
 What can you do once you have this variable? Well one thing you can do is print it, the same way we made our program say hello to us. Let's see that:
 
@@ -129,3 +129,12 @@ The console output will be:
 ```
 
 To explain, at the first print, the box labeled 'myBox' contains the 10 initially put into it so '10' is printed. After that first print statement, the 10 is taken out of the box and 20 replaces it. Thus when print is called with 'myBox' the second time, it contains 20 at that point.
+
+Now you may want to try changing the variable as in the following example:
+
+```
+var myBox = 20
+myBox = "I need new headphones" // the Playground will give you an error for this.
+```
+
+Unforunately, this won't work
