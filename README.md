@@ -3,6 +3,8 @@
 <br>
 ## Foreword
 
+Most code blocks are elaborated upon in the first paragraph after the block, so read at least the trailing paragraph if the code block is confusing.
+
 Each code block is independent of blocks before or after it.
 
 Single quotes are used within paragraphs to talk about words and operators from code blocks.
@@ -56,9 +58,9 @@ Whether something is a String or an Int is known as its type. When we refer to s
 <br>
 ## Variables
 
-A variable is a box that can hold something inside of it. When you have many boxes, you want to give them labels so that you can tell which box is which.
+We use variables so that our programs will work for multiple values and not only the ones we enter manually ourselves. You'll learn more about that in furture lessons. For now, though, let's learn how we make and use these variables.
 
-In Swift, you can put something inside of a labeled box using the '=' sign. For now, whenever we label a box, we also want to put something inside of it. Here is how:
+A variable is like a box. Boxes generally hold things, and when you have many boxes, you want to give them labels so that you can tell which box is which. In Swift, you can label a box using the keyword 'var,' and you can put something inside of a box using the '=' sign. For now, anytime we label a box, we will also put something inside of it. Here is how:
 
 ```
 var myBox = 5
@@ -96,9 +98,7 @@ myBox
 10
 ```
 
-We use variables so that our programs will work for multiple values and not only the ones we enter manually ourselves. You'll learn more about that in furture lessons. For now, let's take a further look at how this 'var' keyword works. 
-
-One important thing to remember is that once you label a box with a certain name, you cannot label another box with the same name. If you did that and then I asked you to grab me the box labled 'Blue,' you wouldn't know which one I mean. Consequently, the following program is illegal:
+One important thing to remember is that once you label a box with a certain name, you cannot label another box with the same name. If you did that and then I asked you to grab me the box labled 'blue,' you wouldn't know which one I mean. Consequently, the following program is illegal:
 
 ```
 var myBox = 10
