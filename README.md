@@ -79,12 +79,13 @@ The resulting console output will be:
 5
 ```
 
-This example shows that when the program tries to print the output to the console, it translates any variables to their actual values. Keep in mind that if you were to put quotes around the variable name, it would become a String and printing it would treat it as such. Here's an example:
+This example shows that when the program tries to print the output to the console, it translates any variables to their actual values. Keep in mind that if you were to put quotes around the variable name, the program would see it as simply a String and printing it would treat it as such. Here's an example:
 
 ```
 var myBox = 10
 print(myBox)
 print("myBox")
+print(myBox)
 ```
 
 The console output would be:
@@ -92,6 +93,7 @@ The console output would be:
 ```
 10
 myBox
+10
 ```
 
 We use variables so that our programs will work for multiple values and not only the ones we enter manually ourselves. You'll learn more about that in furture lessons. For now, let's take a further look at how this 'var' keyword works. 
