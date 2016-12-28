@@ -18,7 +18,7 @@ In order to get acquainted with Swift, the very first thing you will learn to do
 print("Hello, World!")
 ```
 
-At the very bottom of your playground, is a large empty empty rectangle known as the console. The console is how your program will talk to you. When you put the above line of code in your playground, the console will output:
+At the very bottom of your playground, is a large, empty rectangle known as the console. The console is how your program will talk to you. When you put the above line of code in your playground, the console will output:
 
 ```
 Hello, World!
