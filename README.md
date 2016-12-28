@@ -137,4 +137,4 @@ var myBox = 20
 myBox = "I need new headphones" // the Playground will give you an error for this.
 ```
 
-Unforunately, this won't work
+Unforunately, this won't work. Anytime you get a box off the shelf and label it, Swift needs to know what type of thing it's able to hold. By giving 'myBox' an initial value of 20, you're telling Swift that this box is meant to hold Ints. That means that when you try to put a String into 'myBox' on the next line, Swift is going to reject the attempt. You can think of it as trying to put an airplane into a box meant for a bicycle--the most obvious difference between these two types is in size, but there are other differences as well, and every single difference matters when it comes to putting one into a box meant for the other.
