@@ -1,16 +1,37 @@
 # Learning to Program by Using Swift
 
 <br>
-## Foreword
-
-Most code blocks are elaborated upon in the first paragraph after the block, so read at least the trailing paragraph if the code block is confusing.
-
-Each code block is independent of blocks before or after it.
-
-Single quotes are used within paragraphs to talk about words and operators from code blocks.
-
-<br>
 ## Hello, World
+
+Without wasting a moment, let's write our first Swift program. We'll begin by launching Xcode and choosing the option to create a new playground. You can give the playground any name you like, and you can decide on any save location (the default will work just fine). After hitting okay, you'll be met with a large, empty area where you're going to write your code.
+
+To begin, delete everything in the playground except the line reading:
+```
+import UIKit
+```
+Now we can begin our program. Type the following on a new line:
+```
+100
+```
+Congratulations because you've just written code. It's true! The program reads that '100' you just wrote, and it evaluates it. Evaluating a line means simplifying it as much as possible by performing any and all operations on that line. In this case, there are no operations to perform--there's only the number '100' that you wrote.
+
+On the righthand side of the playground is a grey area that should at this point have '100' printed in it, lined up with the '100' you typed. This '100' that you didn't type is the result of the playground's evaluating that line. And as we mentioned, because there are no operations on this line, it simply evaluates to '100.' And it works the same for any number you care to try. Whether you type 13, 500 or 10000, you are writing code.
+
+## Operations
+
+Let's try to see how powerful this playground's evaluation can be. We'll start by trying some arithmetic. Type the following, one by one, into the playground:
+```
+90 + 90
+4 * 8 - 10
+120 / 4 + 6
+```
+To provide a little elaboration, the first line should line up with a '180' in the grey panel on the right side of the playground. In Swift, '\*' means multiplication; therefore, the '4 * 8 - 10' should line up with a '22,' as standard order of operation rules apply. Finally '120 / 4 + 6' ought to line up with a '36.' Hopefully, you're starting to gain a better understanding of what evaluation means, and why these numbers and operators can be considered code.
+
+## Avoiding Waste
+
+As you've seen all the code you've written so far certainly gets evaluated. However, as it is now 
+
+# Sandbox
 
 In order to get acquainted with Swift, the very first thing you will learn to do is make your program say hello to you. So open up Xcode, create a new playground, and type the following:
 
