@@ -13,7 +13,7 @@ Now we can begin our program. Type the following on a new line:
 ```
 100
 ```
-Congratulations because you've just written code. It's true! The program reads that '100' you just wrote, and it evaluates it. Evaluating a line means simplifying it as much as possible by performing any and all operations on that line. In this case, there are no operations to perform--there's only the number '100' that you wrote.
+Congratulations because you've just written code. It's true! The playground reads that '100' you just wrote, and it evaluates it. Evaluating a line means simplifying it as much as possible by performing any and all operations on that line. In this case, there are no operations to perform--there's only the number '100' that you wrote.
 
 On the righthand side of the playground is a grey area that should at this point have '100' printed in it, lined up with the '100' you typed. This '100' that you didn't type is the result of the playground's evaluating that line. And as we mentioned, because there are no operations on this line, it simply evaluates to '100.' And it works the same for any number you care to try. Whether you type 13, 500 or 10000, you are writing code.
 
