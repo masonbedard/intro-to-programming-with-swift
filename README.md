@@ -19,7 +19,7 @@ On the righthand side of the playground is a grey area that should at this point
 
 ## Operations
 
-Let's try to see how powerful this playground's evaluation can be. We'll start by trying some arithmetic. Type the following, one by one, into the playground:
+Let's see how powerful this playground's evaluation can be. We'll start by trying some arithmetic. Type the following, one by one, into the playground:
 ```
 90 + 90
 4 * 8 - 10
