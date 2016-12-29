@@ -1,6 +1,5 @@
 # Learning to Program by Using Swift
 
-<br>
 ## Hello, World
 
 Without wasting a moment, let's write our first Swift program. We'll begin by launching Xcode and choosing the option to create a new playground. You can give the playground any name you like, and you can decide on any save location (the default will work just fine). After hitting okay, you'll be met with a large, empty area where you're going to write your code.
@@ -27,9 +26,16 @@ Let's see how powerful this playground's evaluation can be. We'll start by tryin
 ```
 After everything is entered, the first line should line up with a '180' in the grey panel on the right side of the playground. In Swift, '\*' means multiplication; therefore, the '4 * 8 - 10' should line up with a '22,' as standard order of operation rules apply. Finally '120 / 4 + 6' ought to line up with a '36.' Hopefully, you're starting to gain a better understanding of what evaluation means, and why these numbers and operators can be considered code.
 
-## Avoiding Waste
+## Variables
 
-As you've seen all the code you've written so far certainly gets evaluated. However, as it is now 
+As you've seen, all the code you've written so far certainly gets evaluated. However, as of now the results of these evaluations are simply printed on the rightside of your playground, and then they disappear. Basically, by the time the next line is being evaluated, the previous line is history. So let's not forget our history (because otherwise, just as in the real world, we'd be doomed to repeat it). 
+
+A way we can do that is by storing evaluation results in variables. A variable is like a container that you label so that you can always come back to it, identify it and use whatever it holds inside. Let's see how you do this in code:
+```
+let container = 90 + 90
+```
+The '90 + 90,' part should look familiar to you as it's one of the first lines of code we wrote together. As you may remember, when '90 + 90' is the only text on the line, the program evaluates it to be 180. In an identical fashion, the first thing the program does when it reads this line is to evaluate that '90 + 90' as 180 again. What's new is the 'let container =' preceding it. How about we examine that portion one word at a time.
+
 
 # Sandbox
 
