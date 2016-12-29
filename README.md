@@ -32,10 +32,15 @@ As you've seen, all the code you've written so far certainly gets evaluated. How
 
 A way we can do that is by storing evaluation results in variables. A variable is like a container that you label so that you can always come back to it, identify it and use whatever it holds inside. Let's see how you do this in code:
 ```
-let container = 90 + 90
+let myContainer = 90 + 90
 ```
-The '90 + 90,' part should look familiar to you as it's one of the first lines of code we wrote together. As you may remember, when '90 + 90' is the only text on the line, the program evaluates it to be 180. In an identical fashion, the first thing the program does when it reads this line is to evaluate that '90 + 90' as 180 again. What's new is the 'let container =' preceding it. How about we examine that portion one word at a time.
+The above line might look intimidating, but let's make it less so by starting with the part we already know. The '90 + 90' should look familiar to you as it's one of the first lines of code we wrote together. As you may remember, when '90 + 90' is the only text on the line, the program evaluates it to be 180. In an identical fashion, the first thing the program does when it reads this line is to evaluate that '90 + 90' as 180 again. At this point, both you and the program can imagine the line as reading the following:
+```
+let myContainer = 180
+```
+Now let's tackle the new portion. The first word in that statement, 'let,' is a keyword in Swift, and it is how you declare a variable. Whenever you see 'let,' you can imagine going to the container store and picking out a brand new container in which you're going to store something. 
 
+The next word, 'myContainer,' is the label you're giving to your new container. Unlike 'let,', 'myContainer' is not a keyword, meaning you could have put almost any word in its place. You could have labeled the container 'blue,' 'alpha' or even 'desperateHousewives.' There are a few rules when it comes to labeling your containers--you can't use keywords like 'let' and you can't use special characters like spaces. You can have fun naming your variables, but your future self will probably thank you if your containers are labeled accurately and descriptively based on what they hold.
 
 # Sandbox
 
