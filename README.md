@@ -22,9 +22,9 @@ Let's see how powerful this playground's evaluation can be. We'll start by tryin
 ```
 90 + 90
 4 * 8 - 10
-120 / 4 + 6
+6 + 120 / 4
 ```
-After everything is entered, the first line should line up with a _180_ in the grey panel on the right side of the playground. In Swift, _\*_ means multiplication; therefore, the _4 * 8 - 10_ should line up with a _22_, as standard order of operation rules apply. Finally _120 / 4 + 6_ ought to line up with a _36_. Hopefully, you're starting to gain a better understanding of what evaluation means, and why these numbers and operators can be considered code.
+After everything is entered, the first line should line up with a _180_ in the grey panel on the right side of the playground. In Swift, _\*_ means multiplication; therefore, the _4 * 8 - 10_ should line up with a _22_, as standard order of operation rules apply. Finally _6 + 120 / 4_ ought to line up with a _36_. Hopefully, you're starting to gain a better understanding of what evaluation means, and why these numbers and operators can be considered code.
 
 ## Variables
 
