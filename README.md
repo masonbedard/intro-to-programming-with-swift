@@ -14,7 +14,7 @@ Now we can begin our program. Type the following on a new line:
 ```
 Congratulations because you've just written code. It's true! The playground reads that _100_ you just wrote, and it evaluates it. Evaluating a line means simplifying it as much as possible by performing any and all operations on that line. In this case, there are no operations to perform--there's only the number _100_ that you wrote.
 
-On the righthand side of the playground is a grey area that should at this point have _100_ printed in it, lined up with the _100_ you typed. This _100_ that you didn't type is the result of the playground's evaluating that line. And as we mentioned, because there are no operations on this line, it simply evaluates to _100_. And it works the same for any number you care to try. Whether you type _13_, _500_ or _10000_, you are writing code.
+On the righthand side of the playground is a grey area that should at this point have _100_ printed in it, lined up with the _100_ you typed. This _100_ that you didn't type is the result of the playground's evaluating that line. And as we mentioned, because there are no operations on this line, it simply evaluates to _100_. And it works the same for any number you care to try. Whether you type _13_ or _500_ or _10000_, you are writing code.
 
 ## Operations
 
